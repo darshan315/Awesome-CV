@@ -1,0 +1,94 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsectionIcon{Skills - EXAMPLES}{\faCode}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+%\fbox
+
+\def\HS{\hspace{\fontdimen2\font}}
+\newcommand{\exclt}{\HS\HS\HS\HS\HS}
+\newcommand{\vgood}{\HS\HS}
+\newcommand{\good}{\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS}
+\newcommand{\basic}{\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS\HS}
+\newcommand{\LS}{\HS\HS\HS}
+
+{ 
+    \adjustbox{valign=t}
+    {
+        \begin{minipage}{8cm}
+    
+            \entrytitlestyle{Programming Languages}\\ % \subentrytitlestyle{python}
+            \subentrytitlestyle{
+                \begin{description}[align=parright,leftmargin=!,labelwidth=3cm, labelsep=1em, parsep=1pt]    
+                    \item[Python     \diPythonPlain]            \vlin Excellent  \exclt \noindent\pbar{9} 
+                    \item[C++        \diCplusplusPlainWordmark] \vlin Very Good  \vgood \noindent\pbar{7}
+                    \item[MATLAB     \diMatlabPlain]            \vlin Good       \good  \noindent\pbar{5}
+                    \item[Julia      \diJuliaPlain ]            \vlin Basic      \basic \noindent\pbar{2}
+                \end{description}} 
+    
+        \end{minipage}
+    }
+}
+%-------------------------------------------------------------------------------
+   % BOX SEPARATOR --> .
+%-------------------------------------------------------------------------------
+%\fbox
+{
+    \adjustbox{valign=t}
+    {
+        \begin{minipage}[c]{8cm}
+        
+            \entrytitlestyle{Software Packages}\\ % \subentrytitlestyle{python}
+            \subentrytitlestyle{
+                \begin{description}[align=parright,leftmargin=!,labelwidth=3cm, labelsep=1em, parsep=1pt]    
+                    \item[OpenFOAM   \ \ $\nabla$ ] 						 \vlin Excellent  \exclt  \noindent\pbar{9}
+                    \item[Linux       \diLinuxPlain ]                                            \vlin Very Good  \vgood  \noindent\pbar{7} 
+                    \item[Docker      \diDockerPlain]                                            \vlin Good       \good   \noindent\pbar{5}  
+                    \item[Obsidian   \ \ \ \ {\includesvg[height=6pt]{extra-svgs/obsidian.svg}}] \vlin Basic      \basic  \noindent\pbar{2}    
+                \end{description}
+            } 
+    
+            
+        \end{minipage}
+    }
+
+}
+
+%-------------------------------------------------------------------------------
+\bigskip
+%-------------------------------------------------------------------------------
+
+\begin{cvskills}
+    %-------------------------------------------------------------------------------
+    \cvskill
+        {Workflow} % Category
+        {
+		\diGitPlain \ git,%
+		\ \ {\includesvg[width=12pt]{extra-svgs/slurm.svg}} Slurm,%
+		\ \ {\fontfamily{lmr}\selectfont \LaTeX},%
+		{\diVimPlain \ vim}
+        } % Skills
+    %-------------------------------------------------------------------------------
+    
+    %-------------------------------------------------------------------------------
+    \cvskill
+        {Libraries} % Category
+        {\diPytorch \ Pytorch/torch-lib,%
+        \diTensorflow \ Tensorflow,%
+        \diPandas \ Pandas,%
+        \ \ {\includesvg[width=9pt]{extra-svgs/scikitlearn.svg}} scikit-learn,%
+        \diPytest \ Pytest,%
+        \diNumpy \ Numpy
+        } % Skills
+    %-------------------------------------------------------------------------------
+    
+    %-------------------------------------------------------------------------------
+    \cvskill
+        {Languages} % Category
+        {\LS English (fluent), German (B2)} % Skills
+    %-------------------------------------------------------------------------------
+\end{cvskills}

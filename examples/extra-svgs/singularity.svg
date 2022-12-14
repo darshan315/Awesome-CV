@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg135"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="singularity.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8116734"
+     inkscape:cx="348.02078"
+     inkscape:cy="627.59655"
+     inkscape:window-width="1904"
+     inkscape:window-height="1115"
+     inkscape:window-x="8"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs132" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="Path_139"
+       data-name="Path 139"
+       d="m 113.91229,146.13409 c 0,0 -1.96423,-0.73605 -4.91098,-1.96298 -3.92872,-1.63581 -3.1921,-3.35334 -3.1921,-3.35334 0,0 0.81841,-2.86248 5.64759,-1.88099 5.03855,1.02407 8.75792,6.29755 8.75792,6.29755 l 4.82919,-13.82202 c -7.44852,-3.02619 -18.6246,-3.1698 -23.40932,-2.6977 -10.8042,1.06321 -15.30597,7.42608 -15.30597,13.86301 0,4.92833 1.799861,8.54669 6.013654,10.84661 5.013672,3.12748 9.576056,3.38535 10.847346,5.71542 1.68339,3.08411 -2.29165,3.68051 -2.29165,3.68051 -6.548057,0.49061 -11.622872,-6.78842 -11.622872,-6.78842 l -4.747134,14.47502 c 18.416286,6.21529 31.103196,1.96297 31.103196,1.96297 5.81144,-1.96297 10.31321,-5.97038 10.31321,-12.7588 0,-6.68527 -3.84694,-10.63238 -12.03208,-13.57684 z"
+       fill="#1d315f"
+       style="stroke-width:0.264583;fill:#5d5d5d;fill-opacity:1" />
+    <path
+       id="Path_135"
+       data-name="Path 135"
+       d="M 103.84256,108 C 81.327353,108.06744 63.086288,126.70089 63,149.71069 h 8.430498 C 71.516785,131.51998 85.9882,116.79583 103.8423,116.75087 Z"
+       fill="#21a1da"
+       style="stroke-width:0.264583;fill:#5d5d5d;fill-opacity:1" />
+    <path
+       id="Path_136"
+       data-name="Path 136"
+       d="m 108,108 v 8.76303 c 17.0558,0.94975 30.60955,15.30654 30.69293,32.90983 h 8.51255 C 147.12048,127.22323 129.75556,108.93996 108,108 Z"
+       fill="#8ac13f"
+       style="stroke-width:0.264583;fill:#5d5d5d;fill-opacity:1" />
+    <path
+       id="Path_137"
+       data-name="Path 137"
+       d="M 103.80551,185.32401 C 86.488719,185.28041 72.355573,171.42953 71.44029,154 H 63 c 0.920311,22.25074 18.826549,40.00902 40.80551,40.07488 z"
+       fill="#bcbdc0"
+       style="stroke-width:0.264583;fill:#5d5d5d;fill-opacity:1" />
+    <path
+       id="Path_138"
+       data-name="Path 138"
+       d="M 138.64634,154 C 137.7615,170.84926 124.52431,184.3539 108,185.27402 v 8.76304 C 129.22486,193.1201 146.27114,175.69586 147.16842,154 Z"
+       fill="#f3931e"
+       style="stroke-width:0.264583;fill:#5d5d5d;fill-opacity:1" />
+  </g>
+</svg>

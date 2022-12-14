@@ -1,0 +1,3 @@
+[submodule "examples/devicon"]
+	path = examples/devicon
+	url = https://github.com/konpa/devicon/

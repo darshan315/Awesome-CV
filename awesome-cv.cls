@@ -726,6 +726,75 @@
   \vspace{-4.0mm}
 }
 
+%-------------------------------------------------------------------------------
+% Skill-ICON and modified cv-Entry STUFF
+%-------------------------------------------------------------------------------
+
+% ICON-FONT STUFF
+\RequirePackage{devicon}
+
+% Extra font styles
+\definecolor{boldtext}{HTML}{505050}
+\newcommand*{\focusstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{boldtext} \textbf{#1}}}
+\newcommand*{\focusentrystyle}[1]{{\fontsize{8pt}{1em}\bodyfont\upshape\color{graytext} #1}}
+\newcommand*{\focusentrystylex}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{darktext} #1}}
+\newcommand*{\supervisorstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\upshape\color{black} #1}}
+
+\renewenvironment{cvitems}{%
+  \vspace{-3.0mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{-2.0mm}
+}
+
+% % RE-DEFINE AN ENVIRONMENT FOR CVITEMS (FOR CVENTRY)
+
+% re-Define an entry of cv information
+% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<tools>}{<description>}
+\newcommand*{\cventrydt}[6]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \focusstyle{Tools :} \focusentrystyle{#5} \\
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6,}}
+  \end{tabular*}%
+}
+
+% re-Define an entry of cv information
+% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<tools>}{<description>}
+\newcommand*{\cventryprojects}[6]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \focusstyle{Tools :} \focusentrystyle{#5} \\
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}}
+  \end{tabular*}%
+}
+
+% Define a section for CV
+% Usage: \cvsectionIcon{<section-title>}{<icon>}
+\newcommand{\cvsectionIcon}[2]{%
+  \vspace{\acvSectionTopSkip}
+  \sectionstyle{#1}
+  \phantomsection
+  \color{gray}\vhrulefill{0.9pt}
+  {#2}
+}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter

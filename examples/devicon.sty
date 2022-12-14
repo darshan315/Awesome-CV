@@ -1,0 +1,45 @@
+%% based on furl's latex-fontawesome project.
+
+% Identify this package.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{devicon}
+
+% Requirements to use.
+\usepackage{fontspec}
+
+% Define shortcut to load the Font Awesome font.
+\newfontfamily{\DI}{devicon}
+% Generic command displaying an icon by its name.
+\newcommand*{\devicon}[1]{{
+  \DI\csname devicon@#1\endcsname
+}}
+
+% Languages
+\expandafter\def\csname devicon@python-plain\endcsname { \symbol{"EB89}} \def\diPythonPlain {{\DI\csname devicon@python-plain\endcsname}}
+\expandafter\def\csname devicon@bash-plain\endcsname { \symbol{"E979}} \def\diBashPlain {{\DI\csname devicon@bash-plain\endcsname}}
+\expandafter\def\csname devicon@matlab-plain\endcsname { \symbol{"E93E}} \def\diMatlabPlain {{\DI\csname devicon@matlab-plain\endcsname}}
+\expandafter\def\csname devicon@javascript-plain\endcsname { \symbol{"E845}} \def\diJavascriptPlain {{\DI\csname devicon@javascript-plain\endcsname}}
+\expandafter\def\csname devicon@julia-plain\endcsname { \symbol{"E9DC}} \def\diJuliaPlain {{\DI\csname devicon@julia-plain\endcsname}}
+\expandafter\def\csname devicon@r-plain\endcsname { \symbol{"E98E}} \def\diRPlain {{\DI\csname devicon@r-plain\endcsname}}
+\expandafter\def\csname devicon@cplusplus-line-wordmark\endcsname { \symbol{"E634}} \def\diCplusplusLineWordmark {{\DI\csname devicon@cplusplus-line-wordmark\endcsname}}
+\expandafter\def\csname devicon@cplusplus-plain-wordmark\endcsname { \symbol{"E635}} \def\diCplusplusPlainWordmark {{\DI\csname devicon@cplusplus-plain-wordmark\endcsname}}
+
+% Softwares
+\expandafter\def\csname devicon@linux-plain\endcsname { \symbol{"EB1C}} \def\diLinuxPlain {{\DI\csname devicon@linux-plain\endcsname}}
+\expandafter\def\csname devicon@docker-plain\endcsname { \symbol{"E61F}} \def\diDockerPlain {{\DI\csname devicon@docker-plain\endcsname}}
+
+% workflow
+\expandafter\def\csname devicon@git-plain-wordmark\endcsname { \symbol{"E7A7}} \def\diGitPlainWordmark {{\DI\csname devicon@git-plain-wordmark\endcsname}}
+\expandafter\def\csname devicon@git-plain\endcsname { \symbol{"E7A8}} \def\diGitPlain {{\DI\csname devicon@git-plain\endcsname}}
+\expandafter\def\csname devicon@vim-plain\endcsname { \symbol{"EBF3}} \def\diVimPlain {{\DI\csname devicon@vim-plain\endcsname}}
+\expandafter\def\csname devicon@slack-plain\endcsname { \symbol{"E919}} \def\diSlackPlain {{\DI\csname devicon@slack-plain\endcsname}}
+
+%libraries
+\expandafter\def\csname devicon@pytorch-original\endcsname { \symbol{"EA47}} \def\diPytorch {{\DI\csname devicon@pytorch-original\endcsname}}
+\expandafter\def\csname devicon@tensorflow-original\endcsname { \symbol{"E9B7}} \def\diTensorflow {{\DI\csname devicon@tensorflow-original\endcsname}}
+\expandafter\def\csname devicon@pandas-original\endcsname { \symbol{"E903}} \def\diPandas {{\DI\csname devicon@pandas-original\endcsname}}
+\expandafter\def\csname devicon@pytest-plain\endcsname { \symbol{"E916}} \def\diPytest {{\DI\csname devicon@pytest-plain\endcsname}}
+\expandafter\def\csname devicon@numpy-original\endcsname { \symbol{"E93C}} \def\diNumpy {{\DI\csname devicon@numpy-original\endcsname}}
+
+
+\endinput
