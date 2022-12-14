@@ -25,8 +25,8 @@ xelatex --shell-escape examples/cv.tex
 ## Preview
 
 ### Images
-![page_1](cv_1.png)
-![page_2](cv_2.png)
+![cv-1](https://user-images.githubusercontent.com/50383431/207736086-7cce02b5-6687-4f4e-a82b-c73f4af21fda.png)
+![cv-2](https://user-images.githubusercontent.com/50383431/207736113-7cda4945-9372-4fc4-abf3-9965ad37b0bd.png)
 
 ### PDF
-[PDF](https://raw.githubusercontent.com/)
+[cv.pdf](https://github.com/darshan315/Awesome-CV/files/10232365/cv.pdf)
